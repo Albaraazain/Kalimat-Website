@@ -1,13 +1,27 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+/* @import url('https://db.onlinewebfonts.com/c/e659e9c4fcee36a9ee6b81b490e48058?family=HelveticaNeueLT+W20+75+Bold');
+@import url('https://db.onlinewebfonts.com/c/e659e9c4fcee36a9ee6b81b490e48058?family=HelveticaNeueLT+W20+55+Roman'); */
+
+@font-face {
+    font-family: 'Helvetica Neue Arabic';
+    src: url('../src/Resources/fonts/Helvetica\ Neue\ LT\ Arabic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Helvetica Neue Arabic';
+    src: url('../src/Resources/fonts/HelveticaNeueLT-Arabic-75-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  html{
+    min-height:100vh;
+  }
+  body{
+    min-height:100vh;
+  }
