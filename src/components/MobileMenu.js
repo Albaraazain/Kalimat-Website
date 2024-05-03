@@ -15,7 +15,7 @@ const MobileMenu = ({ isMenuOpen, toggleMenu }) => {
         onClick={toggleMenu}
       />
       <nav
-        className={`fixed top-0 right-0 bottom-0 flex flex-col w-full md:w-5/6 max-w-sm py-8 px-8 bg-green-200 border-r overflow-y-auto transition-transform duration-300 ease-in-out ${
+        className={`fixed top-0 right-0 bottom-0 flex flex-col w-full md:w-5/6 max-w-xs py-8 px-8 bg-green-200 border-r overflow-y-auto transition-transform duration-300 ease-in-out ${
           isMenuOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
@@ -75,7 +75,7 @@ const MobileMenu = ({ isMenuOpen, toggleMenu }) => {
               <img
                 className="rounded-full border border-white shadow-sm w-full h-auto"
                 src={chromeICON}
-                alt="Logo"
+                alt="Chrome Icon"
               />
             </span>
             <span className="text-[20px] px-4 -mt-2">سجل الدخول</span>
