@@ -19,7 +19,7 @@ export default function DashboardPage() {
   };
 
   return (
-    <div dir="rtl" className="flex flex-col h-screen overflow-auto">
+    <div dir="rtl" className=" md:overflow-hidden flex flex-col h-screen overflow-auto">
       <Navbar toggleMenu={toggleMenu} />
       <div>
         <Sidebar isMenuVisible={isMenuVisible} toggleMenu={toggleMenu} />

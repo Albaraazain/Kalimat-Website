@@ -7,7 +7,7 @@ import MasareefIcon from "../../Resources/images/icons/masareef-icon.svg";
 
 function Sidebar({ isMenuVisible, toggleMenu }) {
   return (
-    <div className={`lg:block ${isMenuVisible ? "" : "hidden"} navbar-menu relative z-10`}>
+    <div className={`lg:block ${isMenuVisible ? "" : "hidden"} navbar-menu relative z-10 overflow-hidden`}>
       <div className="navbar-backdrop fixed lg:hidden inset-0 bg-gray-800 opacity-10" onClick={toggleMenu} />
       <nav dir="rtl" className="fixed top-0 ltr:left-0 rtl:right-0 bottom-0 flex flex-col w-60 pt-6 pb-8 bg-custom-light-green border-r shadow-xl overflow-y-auto">
         <div className="flex w-full items-center px-6 pb-6 mb-6 border-b border-blue-50">
