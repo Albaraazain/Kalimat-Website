@@ -1,9 +1,9 @@
-// components/ContentArea.js
+// components/ContentAreaPP.js
 import React from 'react';
 import PolicyContentEn from './PolicyPageContentENG';
 import PolicyContentAr from './PolicyPageContentARB';
 
-const ContentArea = ({ language }) => {
+const ContentAreaPP = ({ language }) => {
   return (
     <div>
       {language === "English" ? <PolicyContentEn /> : <PolicyContentAr />}
@@ -11,4 +11,4 @@ const ContentArea = ({ language }) => {
   );
 };
 
-export default ContentArea;
+export default ContentAreaPP;
