@@ -3,7 +3,7 @@ import React from "react";
 function PolicyPageContentENG() {
     return (
         <div>
-            <h1 className="text-2xl font-bold mb-6">Terms and Conditions</h1>
+            <h1 className="text-3xl font-bold mb-6">Terms and Conditions</h1>
             <p className="text-sm mb-4">Last updated 23/4/2024</p>
 
             {/* Agreement to Legal Terms */}
